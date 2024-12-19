@@ -1,0 +1,133 @@
+
+div#ebookdrawing {
+	z-index		: 2147483647; /* top most */	
+	position	: absolute;
+	width			: 100%;
+	height		: 100%;
+	left			: 0px;
+	top				: 0px;
+}
+
+div#ebookdrawing #ebookdrawingTools {
+	width					: 300px;
+	height				: 200px;
+	position			: absolute;
+	left					: 0px;
+	top						: 0px;
+	padding				: 20px;
+	border				: 2px solid #dddddd;
+	/* background		: #333; */
+	border-radius	: 10px;
+	background-color: #ffffff; 
+
+}
+
+div#ebookdrawing div.drawingToolSub {
+	position : absolute;
+	margin:auto;
+}
+
+div#ebookdrawing div#drawingcolors {
+	width	: 170px;
+	left	: 0px;
+	top		: 40px;
+	color	: #222222;
+	border-right : 1px dashed #ccc;
+	padding : 10px 20px 10px 13px;
+}
+
+div#ebookdrawing div#drawingsizes {
+	width	: 70px;
+	right	: 27px;
+	top		: 40px;
+	color	: #222222;
+	padding : 10px 5px 10px 5px;
+}
+
+div#ebookdrawing div#drawingmenubar {
+	width			: 100%;
+	bottom		: 0px;
+	left			: 0px;
+	top: 5px;
+	text-align: right;
+    height: 30px;
+    margin: 0;
+    opacity: 0.8;
+
+}
+
+div#ebookdrawing span.category {
+	display			: block;
+	margin			: 0.25em auto;
+	cursor			: default;
+	font-size: 14px; 
+	font-weight: normal; 
+	text-align: center; 
+}
+
+div#ebookdrawing div#drawingcolors a.drawingColors {
+	width		: 28px;
+	height	: 28px;
+	display : inline-block;
+	margin	: 4px 0px 0px 6px;
+	opacity	: 0.5;
+	border	: 2px solid #CCC;
+	border-radius		: 20px;
+	text-align			: center;
+	text-decoration : none;
+	cursor : pointer; 
+}
+div#ebookdrawing div#drawingcolors a.drawingColors:hover {
+	opacity	: 0.9;
+}
+
+div#ebookdrawing div#drawingcolors a.drawingColors span{
+	margin-top	: 0.5em;
+	opacity			: 0.5;
+	color				: #333;
+	font-size		: 0.75em;
+	cursor			: default;
+}
+
+div#ebookdrawing div#drawingsizes a.drawingSizes {
+	width			: 60px;
+	display		: block;
+	margin		: 6px auto;
+	background: #000;
+	opacity		: 0.3;
+	outline		: 1px dotted white;
+	text-align			: center;
+	text-decoration : none;
+}
+
+div#ebookdrawing div#drawingsizes a.drawingSizes span{
+	opacity		: 0.5;
+	color			: #333;
+	margin		: auto;
+	position	: absolute;
+	left			: 0px;
+	right			: 0px;
+	cursor			: default;
+}
+
+div#ebookdrawing div#drawingmenubar img.drawingBtns{
+	cursor : pointer;
+	margin : 0px 0.4em;
+	cursor : pointer;
+	height : 24px;
+}
+
+div#ebookdrawing div#drawingmenubar img.drawingBtns.undo,
+div#ebookdrawing div#drawingmenubar img.drawingBtns.redo {
+	opacity : 0.25;
+}
+
+div#ebookdrawing div#drawingmenubar img.drawingBtns.download {
+	display:none; /* 다운받기 감춤 */
+}
+
+div#ebookdrawing div#drawingmenubar img.drawingBtns.close {
+	z-index		: 2147483647; /* top most */	
+	opacity: 0.8;
+
+}

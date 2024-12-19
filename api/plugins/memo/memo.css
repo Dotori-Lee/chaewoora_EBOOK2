@@ -1,0 +1,126 @@
+
+div#ebookmemo {
+	z-index		: 2147483647; /* top most */	
+	position		: absolute;
+	max-width	: 640px;
+	max-height	: 480px;
+	width			: 100%;
+	height			: 100%;	
+	left			: 0px;
+	top			: 0px;
+	right			: 0px;
+	bottom		: 0px;
+	margin		: auto;
+	padding		: 0px;
+}
+
+div#ebookmemo #ebookmemoBlind{
+}
+
+div#ebookmemo #ebookmemoWnd {
+	min-width			: 250px;
+	min-height		: 100px;
+	max-width			: 640px;
+	max-height		: 480px;
+	width					: 100%;
+	height				: 100%;
+	position			: absolute;
+	left					: 0px;
+	top						: 0px;
+	right					: 0px;
+	bottom				: 0px;
+	margin				: auto;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	background		: #f7f7f7;
+}
+
+div#ebookmemo #ebookmemoWnd #ebookmemoHeader{
+	top : -2em;
+	width : 100%;
+	margin							: 0px;
+	padding							: 8px 0px;
+	background: rgb(229,229,229); /* Old browsers */
+	border-radius:  10px 10px 0 0; 
+}
+div#ebookmemo #ebookmemoWnd #ebookmemoHeader span{
+	margin-left	: 0.5em;
+	font-weight	: bold;
+
+}
+
+div#ebookmemo #ebookmemoWnd ul#ebookmemoList {
+	width		: 18%;
+	height	: 85%;
+	left		: 5%;
+	top			: 30px;
+	bottom	: 0px;
+	position: absolute;
+	margin	: auto;
+
+	list-style-type : none;
+	overflow-y : auto;
+	padding : 0px;
+	text-align : center;
+	border : 1px solid #aaaaaa;
+}
+
+div#ebookmemo #ebookmemoWnd ul#ebookmemoList li {
+	background: rgb(255,255,255); /* Old browsers */
+	padding-right	: 0.5em;
+	cursor				: pointer;
+	padding: 3px 0;
+}
+div#ebookmemo #ebookmemoWnd ul#ebookmemoList li.selected {
+	background: rgb(190, 190, 190); /* Old browsers */
+	color			: white; /* font color */
+}
+
+div#ebookmemo #ebookmemoWnd #ebookmemoInput {
+	width		: 70%;
+	height	: 85%;
+	left		: 20%;
+	right		: 0px;
+	top			: 30px;
+	bottom	: 0px;
+	position: absolute;
+	display	: block;
+	padding	: 5px;
+	margin	: auto;
+	border	: 1px solid #aaaaaa;
+}
+
+#ebookmemo #ebookmemoWnd #ebookmemoMinimization.ebookmemominBtn {
+	position	: absolute;
+	cursor		: pointer;
+	top				: 10px;
+	right			: 2.0em;
+	color			: #555;
+	max-width: 16px;
+}
+
+
+div#ebookmemo #ebookmemoWnd #ebookmemoClose.ebookmemoBtn {
+	position	: absolute;
+	cursor		: pointer;
+	top				: 10px;
+	right			: 0.5em;
+	color			: #555;
+	width: 16px;
+}
+
+div#ebookmemoExpansion {
+	z-index			: 2147483647; /* top most */	
+	min-width		: 20px;
+	min-height		: 20px;
+	max-width		: 40px;
+	max-height		: 40px;
+	width				: 6%;
+	height				: 6%;
+	position			: absolute;
+	top				: 0.5em;
+	left				: 0.5em;
+	margin			: 0;
+	display			:none;
+	cursor		: pointer;
+}
